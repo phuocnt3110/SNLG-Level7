@@ -1,0 +1,477 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.17f1 (a4537701e4ab) revision 10769271'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 16301 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/owner/NumberWizard.B3
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51397
+Successfully changed project path to: C:/Users/owner/NumberWizard.B3
+C:/Users/owner/NumberWizard.B3
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 79.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.17f1 (a4537701e4ab)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/owner/NumberWizard.B3/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 520 (ID=0x1916)
+    Vendor:   
+    VRAM:     8150 MB
+    Driver:   27.20.100.8681
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003607 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 95.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.400 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3400ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (737ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (307ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (96ms)
+				BeforeProcessingInitializeOnLoad (24ms)
+				ProcessInitializeOnLoadAttributes (139ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006393 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Error: Could not load signature of Unity.UI.Builder.BuilderTextShadow:.ctor due to: Could not resolve type with token 01000099 (from typeref, class/assembly UnityEngine.UIElements.StyleTextShadow, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.StyleTextShadow member:(null) signature:<none>
+
+The scripted importer 'UIElementsViewImporter' attempted to register file type '.uxml', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+The scripted importer 'StyleSheetImporter' attempted to register file type '.uss', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+The scripted importer 'ThemeStyleSheetImporter' attempted to register file type '.tss', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+ArgumentException: An item with the same key has already been added. Key: UnityEditor.UIElements.EditorAtlasMonitorInjector
+Parameter name: key
+  at System.Collections.Generic.SortedList`2[TKey,TValue].Add (TKey key, TValue value) [0x00041] in <0463b2ef957545c0a51b42f372cd4fbb>:0 
+  at UnityEditor.AssetPostprocessingInternal.GetTextureProcessorsHashString () [0x000a2] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.AssetPostprocessingInternal:GetTextureProcessorsHashString()
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEditor.UIBuilderModule.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 110.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: The MakeClientFunc has already been registered. Registration denied.
+  at UnityEngine.UIElements.DragAndDropUtility.RegisterMakeClientFunc (System.Func`1[TResult] makeClient) [0x00017] in <f28f649cfb6a4dd5a118cb05800b248d>:0 
+  at UnityEditor.UIElements.EditorDragAndDrop.RegisterEditorClient () [0x0000a] in <17cba49fae414354b79f447a7073fc5b>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Mono: successfully reloaded assembly
+- Completed reload, in  1.958 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1959ms)
+		BeginReloadAssembly (197ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1660ms)
+			LoadAssemblies (156ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (437ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (815ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (111ms)
+				BeforeProcessingInitializeOnLoad (168ms)
+				ProcessInitializeOnLoadAttributes (494ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.4 MB.
+System memory in use after: 122.6 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3240.
+Total: 3.994800 ms (FindLiveObjects: 0.319600 ms CreateObjectMapping: 0.163800 ms MarkObjects: 3.387300 ms  DeleteObjects: 0.122800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/wizard-1454385_640.png
+  artifactKey: Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/wizard-1454385_640.png using Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdf7529e215cac2ed24550f5f08504d') in 0.184720 seconds 
+  Import took 0.191074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.220462 seconds.
+  path: Assets/Scenes/wizard-1454385_640.png
+  artifactKey: Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/wizard-1454385_640.png using Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdf7529e215cac2ed24550f5f08504d') in 0.043340 seconds 
+  Import took 0.051366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021593 seconds.
+  path: Assets/Scenes/wizard-1454385_640.png
+  artifactKey: Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/wizard-1454385_640.png using Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdf7529e215cac2ed24550f5f08504d') in 0.091142 seconds 
+  Import took 0.098517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024269 seconds.
+  path: Assets/Scenes/wizard-1454385_640.png
+  artifactKey: Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/wizard-1454385_640.png using Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdf7529e215cac2ed24550f5f08504d') in 0.075751 seconds 
+  Import took 0.083136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022756 seconds.
+  path: Assets/Scenes/wizard-1454385_640.png
+  artifactKey: Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/wizard-1454385_640.png using Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdf7529e215cac2ed24550f5f08504d') in 0.066643 seconds 
+  Import took 0.076251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024456 seconds.
+  path: Assets/Scenes/wizard-1454385_640.png
+  artifactKey: Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/wizard-1454385_640.png using Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdf7529e215cac2ed24550f5f08504d') in 0.061692 seconds 
+  Import took 0.070724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022664 seconds.
+  path: Assets/Scenes/wizard-1454385_640.png
+  artifactKey: Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/wizard-1454385_640.png using Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdf7529e215cac2ed24550f5f08504d') in 0.055049 seconds 
+  Import took 0.064513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026402 seconds.
+  path: Assets/Scenes/wizard-1454385_640.png
+  artifactKey: Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/wizard-1454385_640.png using Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdf7529e215cac2ed24550f5f08504d') in 0.058694 seconds 
+  Import took 0.068859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022596 seconds.
+  path: Assets/Scenes/wizard-1454385_640.png
+  artifactKey: Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/wizard-1454385_640.png using Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdf7529e215cac2ed24550f5f08504d') in 0.077079 seconds 
+  Import took 0.088832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029767 seconds.
+  path: Assets/Scenes/wizard-1454385_640.png
+  artifactKey: Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/wizard-1454385_640.png using Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdf7529e215cac2ed24550f5f08504d') in 0.069626 seconds 
+  Import took 0.083957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045404 seconds.
+  path: Assets/Scenes/wizard-1454385_640.png
+  artifactKey: Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/wizard-1454385_640.png using Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdf7529e215cac2ed24550f5f08504d') in 0.060254 seconds 
+  Import took 0.081516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019099 seconds.
+  path: Assets/Scenes/wizard-1454385_640.png
+  artifactKey: Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/wizard-1454385_640.png using Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdf7529e215cac2ed24550f5f08504d') in 0.066189 seconds 
+  Import took 0.074787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026395 seconds.
+  path: Assets/Scenes/wizard-1454385_640.png
+  artifactKey: Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/wizard-1454385_640.png using Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdf7529e215cac2ed24550f5f08504d') in 0.113000 seconds 
+  Import took 0.123090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042631 seconds.
+  path: Assets/Scenes/wizard-1454385_640.png
+  artifactKey: Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/wizard-1454385_640.png using Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdf7529e215cac2ed24550f5f08504d') in 0.062095 seconds 
+  Import took 0.072827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023748 seconds.
+  path: Assets/Scenes/wizard-1454385_640.png
+  artifactKey: Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/wizard-1454385_640.png using Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdf7529e215cac2ed24550f5f08504d') in 0.064436 seconds 
+  Import took 0.072673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027347 seconds.
+  path: Assets/Scenes/wizard-1454385_640.png
+  artifactKey: Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/wizard-1454385_640.png using Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdf7529e215cac2ed24550f5f08504d') in 0.061257 seconds 
+  Import took 0.069877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024930 seconds.
+  path: Assets/Scenes/wizard-1454385_640.png
+  artifactKey: Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/wizard-1454385_640.png using Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdf7529e215cac2ed24550f5f08504d') in 0.057681 seconds 
+  Import took 0.066721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022140 seconds.
+  path: Assets/Scenes/wizard-1454385_640.png
+  artifactKey: Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/wizard-1454385_640.png using Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdf7529e215cac2ed24550f5f08504d') in 0.072021 seconds 
+  Import took 0.079662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020809 seconds.
+  path: Assets/Scenes/wizard-1454385_640.png
+  artifactKey: Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/wizard-1454385_640.png using Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdf7529e215cac2ed24550f5f08504d') in 0.063821 seconds 
+  Import took 0.071910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019203 seconds.
+  path: Assets/Scenes/wizard-1454385_640.png
+  artifactKey: Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/wizard-1454385_640.png using Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdf7529e215cac2ed24550f5f08504d') in 0.077961 seconds 
+  Import took 0.089852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028444 seconds.
+  path: Assets/Scenes/wizard-1454385_640.png
+  artifactKey: Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/wizard-1454385_640.png using Guid(755b59d1354178641a8d9e899d091033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdf7529e215cac2ed24550f5f08504d') in 0.079639 seconds 
+  Import took 0.089221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.882935 seconds.
+  path: Assets/Scripts/NumberWizard.cs
+  artifactKey: Guid(8d6dee18bd1e733439613d932a978323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NumberWizard.cs using Guid(8d6dee18bd1e733439613d932a978323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26923f1f761fa5f9873e33e52b926b94') in 0.084206 seconds 
+  Import took 0.121531 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012961 seconds.
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Error: Could not load signature of Unity.UI.Builder.BuilderTextShadow:.ctor due to: Could not resolve type with token 01000099 (from typeref, class/assembly UnityEngine.UIElements.StyleTextShadow, UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null) assembly:UnityEngine.UIElementsModule, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:UnityEngine.UIElements.StyleTextShadow member:(null) signature:<none>
+
+The scripted importer 'UIElementsViewImporter' attempted to register file type '.uxml', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+The scripted importer 'StyleSheetImporter' attempted to register file type '.uss', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+The scripted importer 'ThemeStyleSheetImporter' attempted to register file type '.tss', which is handled by a native Unity importer. Registration rejected.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Public/ImporterRegistry.cpp line 245]
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEditor.UIBuilderModule.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: The MakeClientFunc has already been registered. Registration denied.
+  at UnityEngine.UIElements.DragAndDropUtility.RegisterMakeClientFunc (System.Func`1[TResult] makeClient) [0x00017] in <f28f649cfb6a4dd5a118cb05800b248d>:0 
+  at UnityEditor.UIElements.EditorDragAndDrop.RegisterEditorClient () [0x0000a] in <17cba49fae414354b79f447a7073fc5b>:0 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEngine.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEngine.UIElementsModule.dll)
+ASSEMBLY OVERRIDES: * override found for Unity assembly UnityEditor.UIElementsModule.dll (override path Library/ScriptAssemblies/UnityEditor.UIElementsModule.dll)
+Mono: successfully reloaded assembly
+ArgumentException: An item with the same key has already been added. Key: UnityEditor.UIElements.EditorAtlasMonitorInjector
+Parameter name: key
+  at System.Collections.Generic.SortedList`2[TKey,TValue].Add (TKey key, TValue value) [0x00041] in <0463b2ef957545c0a51b42f372cd4fbb>:0 
+  at UnityEditor.AssetPostprocessingInternal.GetTextureProcessorsHashString () [0x000a2] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.AssetPostprocessingInternal:GetTextureProcessorsHashString()
+
+- Completed reload, in  2.075 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2076ms)
+		BeginReloadAssembly (239ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (101ms)
+		EndReloadAssembly (1698ms)
+			LoadAssemblies (189ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (478ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (768ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (151ms)
+				ProcessInitializeOnLoadAttributes (573ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2770 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.5 MB.
+System memory in use after: 122.7 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3249.
+Total: 4.816500 ms (FindLiveObjects: 0.412100 ms CreateObjectMapping: 0.256500 ms MarkObjects: 4.075100 ms  DeleteObjects: 0.071300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
